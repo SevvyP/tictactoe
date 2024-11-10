@@ -1,0 +1,25 @@
+.board.active {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2px;
+  padding: 2px;
+  height: 500px;
+  width: 500px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  border: 1px solid grey;
+  background: lightyellow;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
